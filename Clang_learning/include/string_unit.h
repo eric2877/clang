@@ -16,4 +16,5 @@
 void str_concat(void);
 void str_copy(void);
 void str_search(void);
+void str_compare(void);
 

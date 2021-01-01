@@ -15,6 +15,14 @@ void str_concat(void)
     printf("%s", str1);
 }
 
+void str_compare(void)
+{
+    char str1[100] =" destination string array is this, ";
+    char str2[] = "source string array is added.";
+    int result = strcmp(str1, str2);
+    printf("%d", result);
+}
+
 void str_copy(void)
 {
     char str1[30] = "this is the first string,";
