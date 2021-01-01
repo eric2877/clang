@@ -1,14 +1,14 @@
-//
-//  main.c
-//  Clang_learning
-//
-//  Created by 刘洋 on 2020/12/30.
-//
+#include "pointer_unit.h"
+#include "string_unit.h"
 
-#include <stdio.h>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+
+int main(int argc, char const *argv[])
+{
+//    Pointer_Unit();
+//    str_search();
+    // 动态分配内存
+    pointer_realloc();
     return 0;
 }
+
