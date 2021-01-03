@@ -53,7 +53,7 @@ void pointer_array(void)
     {
         new_word = true;
         // Check for existing word
-        for(int i = 0 ; i< word_count + 1; ++i)
+        for(int i = 0 ; i< word_count; ++i)
         {
             if( *(pWords + i) != NULL && strcmp(pWord, pWords[i]) == 0)
             {
@@ -84,7 +84,7 @@ void pointer_array(void)
     //output the words and counts
     for(int i = 0; i < word_count; ++i)
     {
-        printf(" %-13s %3d", pWords[i], pnWord[i] );
+        printf(" %s %3d", pWords[i], pnWord[i] );
         if((i+1)%4==0) printf("\n");
     }
     
