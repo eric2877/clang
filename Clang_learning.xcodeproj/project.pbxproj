@@ -11,6 +11,7 @@
 		0708BF8B259D93F9001A3B82 /* string_unit.c in Sources */ = {isa = PBXBuildFile; fileRef = 0708BF8A259D93F9001A3B82 /* string_unit.c */; };
 		0708BF8F259D9831001A3B82 /* pointer_realloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 0708BF8E259D9831001A3B82 /* pointer_realloc.c */; };
 		0708BF92259DFF4F001A3B82 /* pointer_array.c in Sources */ = {isa = PBXBuildFile; fileRef = 0708BF91259DFF4F001A3B82 /* pointer_array.c */; };
+		075D285025A5EF5C00320F2C /* pointer_exercise.c in Sources */ = {isa = PBXBuildFile; fileRef = 075D284F25A5EF5C00320F2C /* pointer_exercise.c */; };
 		07B20D2D259C7A52005A22D6 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 07B20D2C259C7A52005A22D6 /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		0708BF8A259D93F9001A3B82 /* string_unit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = string_unit.c; sourceTree = "<group>"; };
 		0708BF8E259D9831001A3B82 /* pointer_realloc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pointer_realloc.c; sourceTree = "<group>"; };
 		0708BF91259DFF4F001A3B82 /* pointer_array.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pointer_array.c; sourceTree = "<group>"; };
+		075D284F25A5EF5C00320F2C /* pointer_exercise.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pointer_exercise.c; sourceTree = "<group>"; };
 		07B20D29259C7A52005A22D6 /* Clang_learning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Clang_learning; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B20D2C259C7A52005A22D6 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,6 +57,7 @@
 				0708BF91259DFF4F001A3B82 /* pointer_array.c */,
 				0708BF86259D8FCE001A3B82 /* pointer_malloc.c */,
 				0708BF8E259D9831001A3B82 /* pointer_realloc.c */,
+				075D284F25A5EF5C00320F2C /* pointer_exercise.c */,
 				0708BF89259D93F9001A3B82 /* string_unit.h */,
 				0708BF8A259D93F9001A3B82 /* string_unit.c */,
 			);
@@ -143,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0708BF8F259D9831001A3B82 /* pointer_realloc.c in Sources */,
+				075D285025A5EF5C00320F2C /* pointer_exercise.c in Sources */,
 				07B20D2D259C7A52005A22D6 /* main.c in Sources */,
 				0708BF92259DFF4F001A3B82 /* pointer_array.c in Sources */,
 				0708BF87259D8FCE001A3B82 /* pointer_malloc.c in Sources */,
