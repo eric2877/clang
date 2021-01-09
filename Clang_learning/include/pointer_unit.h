@@ -10,8 +10,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
+#include <math.h>
+#include <ctype.h>
+#include <string.h>
 #endif /* pointer_unit_h */
 
 void pointer_malloc(void);
 void pointer_realloc(void);
 void pointer_array(void);
+void pointer_calculater(void);

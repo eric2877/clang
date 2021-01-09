@@ -9,7 +9,7 @@ int main(int argc, char const *argv[])
 //    str_search();
     // 动态分配内存
 //    pointer_realloc();
-    pointer_array();
+    pointer_calculater();
     return 0;
 }
 
