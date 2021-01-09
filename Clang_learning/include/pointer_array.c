@@ -6,7 +6,7 @@
 //
 
 #include "pointer_unit.h"
-#include <string.h>
+
 #define BUF_LEN 100
 #define INIT_STR_EXT 50
 #define WORDS_INCR 5
@@ -30,7 +30,13 @@ void pointer_array(void)
         if(strnlen(pStr, str_size) + strnlen(buf, BUF_LEN) + 1 > str_size)
         {
             str_size += 100;
-            pStr = realloc(pStr, str_size);
+            char* pStr_new = realloc(pStr, str_size);
+            if (!pStr)
+            {
+                printf("there is an error happened when loc mem to pStr");
+                return;
+            }
+            pStr = pStr_new;
         }
         if(!(strncat(pStr, buf, strnlen(buf, BUF_LEN))))
         {
@@ -84,7 +90,7 @@ void pointer_array(void)
     //output the words and counts
     for(int i = 0; i < word_count; ++i)
     {
-        printf(" %s %3d", pWords[i], pnWord[i] );
+        printf(" %-13s %3d", pWords[i], pnWord[i] );
         if((i+1)%4==0) printf("\n");
     }
     
